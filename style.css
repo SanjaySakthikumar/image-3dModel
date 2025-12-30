@@ -1,0 +1,92 @@
+body{
+    background-image: url("./images/bg4.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input-container{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.submit{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+.container{
+    display: flex;
+    gap: 50px;
+    border: 5px black solid;
+    padding: 50px;
+    width: fit-content;
+    text-align: center;
+    margin-left: 26%;
+    background-color: rgb(233, 239, 233);
+}
+
+.quotes{
+    text-align: center;
+    color: white;
+}
+.desc{
+    color: black;
+}
+.nav-bar{
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 172, 172);
+    margin-top: 0px;
+}
+.nav-bar h1{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+
+.logo{
+    margin-left: 20px;
+}
+
+.sign-up{
+    display: flex;
+    gap: 25px;
+}
+.sign{
+    padding: 7px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 75px;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.log{
+    padding: 7px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 75px;
+    cursor: pointer;
+}
+.log:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.submit{
+    border-radius: 75px;
+    cursor: pointer;
+}
+.submit:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
